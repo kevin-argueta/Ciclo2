@@ -1,13 +1,19 @@
 body{
-    background-color: aliceblue;
+    background-color: rgb(217, 224, 230);
 }
 .foto{
-    width: 100px;
-    height: 150px;
+    width: 120px;
+    height: 160px;
 }
 img{
     width: 100%;
     height: 100%;
+}
+a{
+    font-style: none;
+}
+li{
+    display: inline-block;
 }
 .parra1{
     background-color: rgba(120,120,120,0.90);
@@ -20,6 +26,8 @@ nav{
 }
 section{
     background-color: rgba(100,100,100,0.25);
+    position: absolute;
+    display: inline-block;
 }
 @media screen and (max-width: 480px) {
 }
