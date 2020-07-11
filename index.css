@@ -2,8 +2,8 @@ body{
     background-color: rgb(217, 224, 230);
 }
 .foto{
-    width: 120px;
-    height: 160px;
+    width: 150px;
+    height: 210px;
 }
 img{
     width: 100%;
@@ -15,7 +15,7 @@ a{
 }
 li{
     display: inline-block;
-    padding-left: 20%;
+    padding-left: 16%;
 }
 .parra1{
     background-color: rgba(120,120,120,0.90);
@@ -24,6 +24,7 @@ li{
     background-color: rgba(120,120,120,0.90);
 }
 nav{
+    height: 40px;
     background-color: rgba(0,0,0);
 }
 section{
