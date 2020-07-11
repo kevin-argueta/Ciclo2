@@ -38,6 +38,12 @@ section{
     position: absolute;
     display: inline-block;
 }
+footer{
+    display: block;
+    height: 30px;
+    color: white;
+    background-color: black;
+}
 @media screen and (max-width: 480px) {
 }
 
