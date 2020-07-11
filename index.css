@@ -10,10 +10,12 @@ img{
     height: 100%;
 }
 a{
-    font-style: none;
+    font-style: normal;
+    color: white;
 }
 li{
     display: inline-block;
+    padding-left: 20%;
 }
 .parra1{
     background-color: rgba(120,120,120,0.90);
