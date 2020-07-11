@@ -6,6 +6,8 @@ body{
     height: 210px;
 }
 img{
+    position: relative;
+    left: auto;
     width: 100%;
     height: 100%;
 }
@@ -14,6 +16,7 @@ a{
     color: white;
 }
 li{
+    margin-top: 7px;
     display: inline-block;
     padding-left: 16%;
 }
@@ -28,6 +31,8 @@ nav{
     background-color: rgba(0,0,0);
 }
 section{
+    width: 60%;
+    height: 80%;
     background-color: rgba(100,100,100,0.25);
     position: absolute;
     display: inline-block;
