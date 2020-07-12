@@ -4,7 +4,7 @@ body{
 .foto{
     position: relative;
     margin-top: 10px;
-    left: 30%;
+    align-items: center;
     width: 150px;
     height: 200px;
 }
@@ -27,7 +27,7 @@ li{
     position: relative;
     margin-top: 20px;
     width: 60%;
-    height: 15%;
+    height: 18%;
     left: 20%;
     overflow: hidden;
 }
