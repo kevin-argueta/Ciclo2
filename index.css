@@ -4,7 +4,7 @@ body{
 .foto{
     position: relative;
     margin-top: 10px;
-    left: 38%;
+    left: 30%;
     width: 150px;
     height: 200px;
 }
@@ -25,6 +25,7 @@ li{
 .parra1{
     background-color: rgba(120,120,120,0.90);
     position: relative;
+    margin-top: 20px;
     width: 60%;
     height: 15%;
     left: 20%;
@@ -56,7 +57,7 @@ section{
     display: inline-block;
 }
 footer{
-    bottom: -120px;
+    bottom: -150px;
     position: absolute;
     display: inline-block;
     text-align: center;
