@@ -26,9 +26,14 @@ li{
     position: relative;
     width: 60%;
     height: 25%;
+    left: 20%;
 }
 .parra2{
     background-color: rgba(120,120,120,0.90);
+    position: relative;
+    width: 60%;
+    height: 25%;
+    left: 20%;
 }
 nav{
     top: 0em;
@@ -46,6 +51,7 @@ section{
 }
 footer{
     bottom: 0em;
+    position: absolute;
     display: inline-block;
     height: 10%;
     width: 100%;
