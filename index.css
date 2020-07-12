@@ -3,7 +3,8 @@ body{
 }
 .foto{
     position: relative;
-    left: 35%;
+    margin-top: 10px;
+    left: 38%;
     width: 150px;
     height: 200px;
 }
