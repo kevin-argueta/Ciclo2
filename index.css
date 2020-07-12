@@ -3,9 +3,9 @@ body{
 }
 .foto{
     position: relative;
-    left: 20%;
+    left: 35%;
     width: 150px;
-    height: 210px;
+    height: 250px;
 }
 img{
     
@@ -23,6 +23,9 @@ li{
 }
 .parra1{
     background-color: rgba(120,120,120,0.90);
+    position: relative;
+    width: 60%;
+    height: 25%;
 }
 .parra2{
     background-color: rgba(120,120,120,0.90);
@@ -30,6 +33,7 @@ li{
 nav{
     top: 0em;
     height: 40px;
+    width: 100%;
     background-color: rgba(0,0,0);
 }
 section{
@@ -42,7 +46,7 @@ section{
 }
 footer{
     bottom: 0em;
-    display: block;
+    display: inline-block;
     height: 10%;
     width: 100%;
     color: white;
