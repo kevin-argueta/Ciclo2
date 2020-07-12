@@ -28,6 +28,7 @@ li{
     width: 60%;
     height: 15%;
     left: 20%;
+    overflow: hidden;
 }
 .parra2{
     background-color: rgba(120,120,120,0.90);
@@ -35,6 +36,7 @@ li{
     width: 60%;
     height: 35%;
     left: 20%;
+    overflow: hidden;
 }
 nav{
     text-decoration: none;
@@ -47,7 +49,7 @@ section{
     margin-top: 30px;
     left: 20%;
     width: 60%;
-    height: 80%;
+    height: 85%;
     background-color: rgba(100,100,100,0.25);
     position: absolute;
     display: inline-block;
