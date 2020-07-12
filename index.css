@@ -53,10 +53,10 @@ section{
     display: inline-block;
 }
 footer{
-    bottom: 0em;
+    bottom: -50px;
     position: absolute;
     display: inline-block;
-    height: 10%;
+    height: 6%;
     width: 100%;
     color: white;
     background-color: black;
