@@ -33,8 +33,9 @@ li{
 .parra2{
     background-color: rgba(120,120,120,0.90);
     position: relative;
+    margin-top: 20px;
     width: 60%;
-    height: 35%;
+    height: 30%;
     left: 20%;
     overflow: hidden;
 }
