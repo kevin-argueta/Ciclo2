@@ -18,6 +18,14 @@ function init() {
         }    
     }while(ver==0);   
     var op2 = prompt('Introduzca el segundo numero:','');
+    do{
+        if (isNaN(op2)==1) {
+            ver = 0;
+            op2 = prompt('Solo se aceptan numeros xd:','');
+        }else{
+            ver = 1;
+        }    
+    }while(ver==0);
     //Elemento div donde se mostrará el menú de las operaciones
     var operaciones = document.getElementById('operaciones');
     //Elemento div donde se mostrarán los resultados
