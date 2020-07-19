@@ -17,7 +17,7 @@ function init() {
             x = prompt('Solo se aceptan numeros:','');
             ver = 1;
         }    
-    }while(ver==1);   
+    }while(ver==0);   
     var op2 = prompt('Introduzca el segundo numero:','');
     //Elemento div donde se mostrará el menú de las operaciones
     var operaciones = document.getElementById('operaciones');
