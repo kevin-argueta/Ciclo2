@@ -97,7 +97,6 @@
     .back-button {
     background-color: rgba(205,125,125,1); /* #0960C9 */
     color: #ccc;
-    display: block;
     font-size: 1.2em;
     font-weight: Bold;
     height: 50px;
