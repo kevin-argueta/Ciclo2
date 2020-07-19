@@ -26,7 +26,7 @@ case "Agosto":
 case "agosto":
 case "Octubre":
 case "octubre":
-    case "Diciembre":
+case "Diciembre":
 case "diciembre":
 diasdelmes = 31;
 break;
