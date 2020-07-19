@@ -6,8 +6,25 @@
 * desde la fecha de nacimiento hasta la *
 * fecha actual del calendario. *
 * * * * * * * * * * * * * * * * * * * * * * * * * * */
+var ver=1;
 var mes = prompt("Ingrese el mes: ", "");
+do{
+    if (isNaN(mes)==0) {
+        ver = 0;
+        mes = prompt('No se aceptan numeros:','');
+    }else{
+        ver = 1;
+    }    
+}while(ver==0);
 var year = prompt("Ingrese el año: ", "");
+do{
+    if (isNaN(year)==1) {
+        ver = 0;
+        year = prompt('Solo se aceptan numeros:','');
+    }else{
+        ver = 1;
+    }    
+}while(ver==0);
 var diasdelmes;
 var bisiesto = false;
 if(year%4 == 0 && (year%100 != 0 || year%400 == 0)){
