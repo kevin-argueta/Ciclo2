@@ -7,14 +7,13 @@
 //al producirse el evento load (carga de la página)
 function init() {
     var ver=1;
-    //Ingresar los datos de los números a operar
-    do{
+    //Ingresar los datos de los números a operar    
     var op1 = prompt('Introduzca el primer numero:',''); 
-        if (isNaN(op1)==0) {
+    do{
+        if (isNaN(op1)==1) {
             ver = 0;
             x = prompt('Solo se aceptan numeros xd:','');
         }else{
-            x = prompt('Solo se aceptan numeros:','');
             ver = 1;
         }    
     }while(ver==0);   
