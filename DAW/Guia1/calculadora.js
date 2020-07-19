@@ -10,8 +10,9 @@ function init() {
     //Ingresar los datos de los números a operar
     do{
     var op1 = prompt('Introduzca el primer numero:',''); 
-        if (isNaN(x)) {
+        if (isNaN(x)==1) {
             ver = 0;
+            x = prompt('Solo se aceptan numeros xd:','');
         }else{
             x = prompt('Solo se aceptan numeros:','');
             ver = 1;
