@@ -12,7 +12,7 @@ function init() {
     do{
         if (isNaN(op1)==1) {
             ver = 0;
-            x = prompt('Solo se aceptan numeros xd:','');
+            op1 = prompt('Solo se aceptan numeros xd:','');
         }else{
             ver = 1;
         }    
