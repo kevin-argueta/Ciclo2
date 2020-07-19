@@ -10,6 +10,7 @@ function init() {
     //Ingresar los datos de los números a operar
     var op1 = prompt('Introduzca el primer numero:',''); 
     do{
+        ver=1;
         numero(op1,ver);
     }while(ver==1);   
     var op2 = prompt('Introduzca el segundo numero:','');
@@ -91,9 +92,10 @@ break;
 function numero(x, ver) {
     if (isNaN(x)) {
         ver =0;
-      return ver;
+      return x, ver;
+    }else{
+        x = prompt('Solo se aceptan numeros:','');
+        return x, ver;
     }
-    x = prompt('Solo se aceptan numeros:','');
-    return x, ver;
   } 
 window.onload=init;
