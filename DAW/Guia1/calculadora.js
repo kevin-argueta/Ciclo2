@@ -6,8 +6,12 @@
 //Función que trabaja como manejador de evento
 //al producirse el evento load (carga de la página)
 function init() {
+    var ver=1;
     //Ingresar los datos de los números a operar
-    var op1 = prompt('Introduzca el primer numero:','');
+    var op1 = prompt('Introduzca el primer numero:',''); 
+    do{
+        numero(op1,ver);
+    }while(ver==1);   
     var op2 = prompt('Introduzca el segundo numero:','');
     //Elemento div donde se mostrará el menú de las operaciones
     var operaciones = document.getElementById('operaciones');
@@ -84,4 +88,12 @@ break;
 }
 }
 }
+function numero(x, ver) {
+    if (isNaN(x)) {
+        ver =0;
+      return ver;
+    }
+    x = prompt('Solo se aceptan numeros:','');
+    return x, ver;
+  } 
 window.onload=init;
