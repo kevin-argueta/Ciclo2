@@ -10,7 +10,7 @@ function init() {
     //Ingresar los datos de los números a operar
     do{
     var op1 = prompt('Introduzca el primer numero:',''); 
-        if (isNaN(x)==1) {
+        if (isNaN(x)==0) {
             ver = 0;
             x = prompt('Solo se aceptan numeros xd:','');
         }else{
