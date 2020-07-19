@@ -7,4 +7,6 @@ body{
     font-size: 1.8rem;
     width: 60%;
     height: 25%;
+    position: relative;
+    left: 30px;
 }
