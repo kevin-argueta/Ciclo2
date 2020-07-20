@@ -3,9 +3,10 @@
     text-align: center;
     display: block;
     position: absolute;
-    width: 100%;
+    width: 50%;
     height: 15%;
     margin-bottom: 3%;
+    margin-left: 25%;
 }
 h1{
     margin-top: 10%;
