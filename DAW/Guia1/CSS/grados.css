@@ -16,10 +16,10 @@ h1{
 .imagen{
     position: absolute;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    left: auto;
+    right: auto;
     display: block;
-    top: 30%;
+    top: 20%;
     width: 50%;
     height: 30%;
 }
