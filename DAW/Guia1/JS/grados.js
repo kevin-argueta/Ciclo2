@@ -32,15 +32,15 @@ far=(cels * (9/5)) + 32;
 document.write("<div class='text'><h1>La temperatura es "+far+" °F</h1></div>");
 switch(menu){
     case 1:
-        document.write("<div class='imagen'><img src='../IMG/antartida.jpg' alt='#'></div>");
+        document.write("<img src='../IMG/antartida.jpg' alt='#'>");
         break;
     case 2:
-        document.write("<div class='imagen'><img src='../IMG/canada.jpg' alt='#'></div>");
+        document.write("<img src='../IMG/canada.jpg' alt='#'>");
         break;
     case 3:
-        document.write("<div class='imagen'><img src='../IMG/selva.jpg' alt='#'></div>");
+        document.write("<img src='../IMG/selva.jpg' alt='#'>");
         break;
     case 4:
-        document.write("<div class='imagen'><img src='../IMG/descierto.jpg' alt='#'></div>");
+        document.write("<img src='../IMG/descierto.jpg' alt='#'>");
         break;
     }
