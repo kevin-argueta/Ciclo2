@@ -1,0 +1,24 @@
+#conversion{
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+    right: 0;
+    left: 0;
+    color: white;
+    background-color: black;
+    display: block;
+    width: 50%;
+    height: 20%;
+} 
+.imagen{
+    align-items: center;
+    right: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 30%;
+}
+img{
+    width: 60%;
+    height: 100%;
+}
