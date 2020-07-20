@@ -1,4 +1,4 @@
-#conversion{
+.conver{
     text-align: center;
     align-items: center;
     font-size: 2rem;
@@ -10,7 +10,7 @@
     width: 50%;
     height: 20%;
 } 
-.imagen{
+.imag{
     align-items: center;
     right: 0;
     left: 0;
