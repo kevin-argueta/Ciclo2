@@ -15,9 +15,7 @@ do{
     }else{
         ver = 1;
     }
-}while(ver==0);
-var conversion = document.getElementById('conversion');
-conversion.innerHTML="<p>Hola perri</p>";    
+}while(ver==0);   
 prompt('A ver si carga xd','');
 far=(cels * (9/5)) + 32;
 if(cels<=-1){
