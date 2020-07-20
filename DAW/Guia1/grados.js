@@ -29,14 +29,7 @@ if(cels<=-1){
 switch(menu){
     case 1:
         var conversion = document.getElementById('conversion');
-        var contenido = "<body>\n";
-        contenido += "\t<h1></h1>\n";
-        contenido += "<div id='cenver'>";
-        contenido += "<p>La conversion a °F es igual a "+far+"</p>";
-        contenido += "</div>";
-        contenido += "<div class='imag'>";
-        contenido += "<img src='IMG/artantida.jpg' alt='#'>";
-        contenido += "</div>";
-        contenido += "</body>";
-        conversion.innerHTML = contenido;
-}
+        conversion.innerHTML="<p>Hola perri</p>"     
+        break;
+
+    }
