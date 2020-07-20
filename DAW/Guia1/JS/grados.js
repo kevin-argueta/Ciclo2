@@ -29,18 +29,18 @@ if(cels>40){
     menu=4;
 }
 far=(cels * (9/5)) + 32;
-document.write("<h1>La temperatura es "+far+" °F</h1>");
+document.write("<div class='text'><h1>La temperatura es "+far+" °F</h1></div>");
 switch(menu){
     case 1:
-        document.write("<img src='../IMG/antartida.jpg' alt='#'>");
+        document.write("<div class='imagen'><img src='../IMG/antartida.jpg' alt='#'></div>");
         break;
     case 2:
-        document.write("<img src='../IMG/canada.jpg' alt='#'>");
+        document.write("<div class='imagen'><img src='../IMG/canada.jpg' alt='#'></div>");
         break;
     case 3:
-        document.write("<img src='../IMG/selva.jpg' alt='#'>");
+        document.write("<div class='imagen'><img src='../IMG/selva.jpg' alt='#'></div>");
         break;
     case 4:
-        document.write("<img src='../IMG/descierto.jpg' alt='#'>");
+        document.write("<div class='imagen'><img src='../IMG/descierto.jpg' alt='#'></div>");
         break;
     }
