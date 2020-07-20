@@ -18,11 +18,14 @@ do{
 }while(ver==0);    
 if(cels<=-1){
     menu=1;
-}else if(cles>=0 && cels<=20){
+} 
+if(cles>=0 && cels<=20){
     menu=2;
-}else if(cels>=21 && cels<=40){
+} 
+if(cels>=21 && cels<=40){
     menu=3;
-}else{
+}
+if(cels>=41){
     menu=4;
 }
 far=(cels * (9/5)) + 32;
