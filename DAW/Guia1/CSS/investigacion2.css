@@ -13,8 +13,8 @@ h1{
 }
 p{
     font-size: 1.05rem;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 #contenido{
     background-color: rgb(82, 167, 141);
@@ -23,7 +23,7 @@ p{
     right: 0;
     left: 0;
     display: inline-block;
-    width: 80%;
+    width: 60%;
     height: 90%;
     border: black;
     color: black;   
