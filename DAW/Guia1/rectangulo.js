@@ -9,7 +9,7 @@ var base = prompt('Introduzca la base del rectángulo','');
 do{
     if (isNaN(base)==1) {
         ver = 0;
-        base = prompt('Solo se aceptan numeros xd:','');
+        base = prompt('Solo se aceptan numeros:','');
     }else{
         ver = 1;
     }    
