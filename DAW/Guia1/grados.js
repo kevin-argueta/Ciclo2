@@ -5,9 +5,7 @@
 * Uso: Calcular grados F° a partir de C°. *
 * * * * * * * * * * * * * * * * * * * * * * * * * * */
 var ver;
-var conversion = document.getElementById('conversion');
 var menu;
-conversion.innerHTML="<p>Hola perri</p>";
 var cels = prompt('Introdusca la cantidad de grados celsius','');
 do{
     if (isNaN(cels)==1) {
@@ -17,6 +15,7 @@ do{
         ver = 1;
     }
 }while(ver==0);
+var conversion = document.getElementById('conversion');
 var far;
 far=(cels * (9/5)) + 32;
 conversion.innerHTML="<p>Hola perri</p>";    
