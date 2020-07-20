@@ -15,8 +15,8 @@ do{
     }else{
         ver = 1;
     }
-}while(ver==0);   
-far=(cels * (9/5)) + 32;
+}while(ver==0);
+document.write("<h1>La temperatura es</h1>");        
 if(cels<=-1){
     menu=1;
 }else if(cles>=0 && cels<=20){
@@ -26,6 +26,7 @@ if(cels<=-1){
 }else{
     menu=4;
 }
+far=(cels * (9/5)) + 32;
 switch(menu){
     case 1:
         document.write("<h1>La temperatura es"+far+"</h1>");     
