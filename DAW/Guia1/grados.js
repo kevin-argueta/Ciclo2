@@ -5,14 +5,28 @@
 * Uso: Calcular grados F° a partir de C°. *
 * * * * * * * * * * * * * * * * * * * * * * * * * * */
 var ver;
+var menu;
 var cels = prompt('Introdusca la cantidad de grados celsius','');
 do{
     if (isNaN(cels)==1) {
         ver = 0;
-        cels = prompt('Solo se aceptan numeros :','');
+        cels = prompt('Solo se aceptan numeros:','');
     }else{
         ver = 1;
-    }    
-}while(ver==0);
+    }
 var far;
-
+far=(cels * (9/5)) + 32;    
+}while(ver==0);
+if(cels<=-1){
+    menu=1;
+}else if(cles>=0 && cels<=20){
+    menu=2;
+}else if(cels>=21 && cels<=40){
+    menu=3;
+}else{
+    menu=4;
+}
+switch(menu){
+    case 1:
+        
+}
