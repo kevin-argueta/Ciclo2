@@ -19,7 +19,7 @@ do{
 if(cels<0){
     menu=1;
 } 
-if(cles>-1 && cels<21){
+if(cels>-1 && cels<21){
     menu=2;
 } 
 if(cels>20 && cels<41){
