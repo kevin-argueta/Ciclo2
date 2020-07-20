@@ -16,7 +16,6 @@ do{
         ver = 1;
     }
 }while(ver==0);   
-prompt('A ver si carga xd','');
 far=(cels * (9/5)) + 32;
 if(cels<=-1){
     menu=1;
@@ -29,6 +28,6 @@ if(cels<=-1){
 }
 switch(menu){
     case 1:
-        conversion.innerHTML="<p>Hola perri</p>";     
+        document.write("<h1>La temperatura es"+far+"</h1>");     
         break;
     }
