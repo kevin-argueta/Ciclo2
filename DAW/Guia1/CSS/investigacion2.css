@@ -28,4 +28,5 @@ p{
     border: black;
     color: black;   
     text-align: center;
+    overflow: hidden;
 }
