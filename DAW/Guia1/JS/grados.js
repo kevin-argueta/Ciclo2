@@ -29,7 +29,7 @@ if(cels>40){
     menu=4;
 }
 far=(cels * (9/5)) + 32;
-document.write("<h1>La temperatura es "+far+" °F</h1>");
+document.write("<div class='texto'><h1>La temperatura es "+far+" °F</h1><div>");
 switch(menu){
     case 1:
         document.write("<img src='../IMG/antartida.jpg' alt='#'>");
