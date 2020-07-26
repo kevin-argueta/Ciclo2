@@ -50,9 +50,11 @@ nav>ul>li>ul{
 }
 nav>ul>li:hover ul{
     display: block;
+    z-index: 99;
 }
 nav>ul>li>ul{
     background-color: #222;
+    z-index: 99;
 }
 
 .parra1{
