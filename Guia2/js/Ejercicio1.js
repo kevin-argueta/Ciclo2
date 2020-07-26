@@ -1,7 +1,9 @@
 function inicializar(){
     //Inicialización de variables
-    var i=0, contenido="", num, Cant=0, CantPar=0, CantImpar=0, Suma=0, SumaImpar=0, SumaPar=0, Mayor=0, Menor=10;
     var cifra = new array();
+    var num;
+    var i=0, contenido="", Cant=0, CantPar=0, CantImpar=0, Suma=0, SumaImpar=0, SumaPar=0, Mayor=0, Menor=10;
+    num = prompt("Ingrese un numero (valor entero):", "");
     do {
     num = prompt("Ingrese un numero (valor entero):", "");
     //Verificar que se ingrese un dato numérico
