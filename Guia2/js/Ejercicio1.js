@@ -1,7 +1,7 @@
 function inicializar(){
     //Inicialización de variables
     alert("El valor digitado no es numérico.");
-    //var cifra = new array();
+    var cifra = new Array();
     alert("El valor digitado no es numérico.");
     var i=0, contenido="", Cant=0, CantPar=0, CantImpar=0, Suma=0, SumaImpar=0, SumaPar=0, Mayor=0, Menor=10;
     alert("El valor digitado no es numérico.");
