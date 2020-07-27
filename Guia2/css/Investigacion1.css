@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+}
+
+h1{
+    color:black;
+    font-family:"Century Gothic";
+    font-size:2em;
+}
+
+h2{
+    color:black;
+    font-family:"Century Gothic";
+    font-size:1.2em;
+    font-weight:400;
+}
+table {
+    background-color:LemonChiffon;
+    border:outset 6px SlateBlue;
+}
+
+td    {
+    background-color:LemonChiffon;
+    border:solid 2px SlateBlue;
+    color:SlateBlue;
+    height:30px;
+    text-align:center;
+    font-family:"Lucida Sans";
+    font-size:1em;
+    font-weight:500;
+    width:25px;
+}

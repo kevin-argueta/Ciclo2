@@ -1,4 +1,4 @@
-function inicializar(){
+   function inicializar(){
     //Inicialización de variables
     var valor = new Array();
     var nombre = new Array();
