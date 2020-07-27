@@ -1,13 +1,8 @@
 function inicializar(){
     //Inicialización de variables
-    alert("El valor digitado no es numérico.");
     var cifra = new Array();
-    alert("El valor digitado no es numérico.");
     var i=0, contenido="", Cant=0, CantPar=0, CantImpar=0, Suma=0, SumaImpar=0, SumaPar=0, Mayor=0, Menor=10;
-    alert("El valor digitado no es numérico.");
-    var num;
-    alert("El valor digitado no es numérico.");
-    num = prompt("Ingrese un numero (valor entero):", "");
+    var num, j;    
     do {
     num = prompt("Ingrese un numero (valor entero):", "");
     //Verificar que se ingrese un dato numérico
@@ -23,19 +18,49 @@ function inicializar(){
     //Obteniendo el elemento donde se cargará el contenido
     //generado dinámicamente desde JavaScript
     var datos = document.getElementById('datos');
-    contenido += "<h1>cantidad de Cifras</h1>\n";
     //Lazo que muestra la cantidad de cifras
     do{
        cifra[i]=num%10;
-       num=num/10;
-       i++;
-       cant++;
-    }while(num<10);
+       num = Math.floor(num/10);       
+       i=i+1;
+       Cant=Cant+1;
+    }while(num>10);
     if(num!=0){
     cifra[i]=num;
-    cant++;
+    Cant++;
     }
-    contenido += "<h2>"+cant+"</h2>\n";
+    for(j=0;j<=i;j++){ 
+       if(cifra[j]%2!=0){
+        SumaImpar=SumaImpar+cifra[j];
+        CantImpar=CantImpar+1;
+       }else{
+        SumaPar=SumaPar+cifra[j];
+        CantPar=CantPar+1;
+       }
+       if(Mayor<=cifra[j]){
+            Mayor=cifra[j];
+       }
+       if(Menor>=cifra[j]){
+        Menor=cifra[j];
+       }
+       Suma=Suma+cifra[j];
+    }
+    contenido += "<h1>cantidad de Cifras</h1>\n";
+    contenido += "<h2> En total son "+Cant+" cifras </h2>\n";
+    contenido += "<h1>cantidad de Cifras Impares</h1>\n";
+    contenido += "<h2> En total son "+CantImpar+" impares </h2>\n";
+    contenido += "<h1>cantidad de Cifras Pares</h1>\n";
+    contenido += "<h2> En total son "+CantPar+" pares </h2>\n";
+    contenido += "<h1>Suma de las Cifras Impares</h1>\n";
+    contenido += "<h2> En total son "+SumaImpar+" impares </h2>\n";
+    contenido += "<h1>Suma de las Cifras Pares</h1>\n";
+    contenido += "<h2> En total son "+SumaPar+" pares </h2>\n";
+    contenido += "<h1>Suma de las Cifras</h1>\n";
+    contenido += "<h2> En total son "+Suma+"</h2>\n";
+    contenido += "<h1>Cifra mayor</h1>\n";
+    contenido += "<h2> La cifra mayor es: "+Mayor+"</h2>\n";
+    contenido += "<h1>Cifra menor</h1>\n";
+    contenido += "<h2> La cifra menor es: "+Menor+"</h2>\n";
     datos.innerHTML = contenido;
    }
    window.onload = inicializar;
