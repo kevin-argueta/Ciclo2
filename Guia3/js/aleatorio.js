@@ -31,10 +31,8 @@ else if(disparador.attachEvent){
 }
 function aleatorio(minimo, maximo, cantidad){
  //Generando un número aleatorio teniendo el cuidado
- //que esté comprendido entre los valores mínimo y
-máximo
- var numero = Math.floor(Math.random() * (maximo -
-minimo + 1)) + minimo;
+ //que esté comprendido entre los valores mínimo y máximo
+ var numero = Math.floor(Math.random() * (maximo - minimo + 1)) + minimo;
  //Verificar que no se haya llegado a la cantidad
  //de números aleatorios máximo establecidos
  if(aleatorios.length < cantidad){
