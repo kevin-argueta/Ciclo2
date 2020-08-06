@@ -1,0 +1,41 @@
+.contenedor{
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    display: inline-block;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: gray;
+}
+.boton{
+    display: inline-block;
+    width: 9%;
+    height: 9%;
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+    text-decoration: none;
+    border: 1px none black;
+    background-color: white;
+    position: relative;
+    color: black;
+    text-align: center;
+}
+
+.opera{
+    display: block;
+    width: 100%;
+}
+.datos{
+    display: block;
+    width: 100%;
+    margin-top: 5%;
+}
+input{
+    
+}
+.boton-txt{
+    font-size: 2rem;
+}
