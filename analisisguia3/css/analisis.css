@@ -33,9 +33,10 @@
     width: 100%;
     margin-top: 5%;
 }
-input{
-    
-}
 .boton-txt{
     font-size: 2rem;
+}
+input{
+    width: 30%;
+    height: 10%;
 }
