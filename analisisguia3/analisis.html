@@ -3,33 +3,42 @@
 <head>
  <title>Captura de datos</title>
  <meta charset="utf-8" /> 
- <link rel="stylesheet" href="../Guia3/css/basic.css" />
  <link rel="stylesheet" href="css/analisis.css">
- <script src="../js/analisis.js"></script>
+ <script src="js/analisis.js"></script>
  </head>
- <body>
-     <header>
-         <h1>Calculadora Basica</h1>
-     </header>
-     <div class="contenedor">
-         <div class="opera">
-         <a class="boton" id="b1" href="#"><span class="boton-txt">+</span></a>
-         <a class="boton" id="b2" href="#"><span class="boton-txt">-</span></a>
-         <a class="boton" id="b3" href="#"><span class="boton-txt">/</span></a>
-         <a class="boton" id="b4" href="#"><span class="boton-txt">x</span></a>
-         <a class="boton" id="b5" href="#"><span class="boton-txt">%</span></a>
-         <a class="boton" id="b6" href="#"><span class="boton-txt">A^-1</span></a>
-         <a class="boton" id="b7" href="#"><span class="boton-txt">A^2</span></a>
-         <a class="boton" id="b8" href="#"><span class="boton-txt">√</span></a>
-         <a class="boton" id="b9" href="#"><span class="boton-txt">=</span></a>
-         </div>
-         <div class="datos">
-            <form name="numeros" id="numsEva" method="post" action="javascript:void(0);">
-            <input type="text" name="numero1" id="num1" placeholder="numero 1" autocomplete="0" onkeypress="return numbersOnly(this, event)" requested" />
-            <input type="text" name="numero2" id="num2"  placeholder="numero 2" autocomplete="0" onkeypress="return numbersOnly(this, event)" />
-            </form>
-         </div>
-         <div id="respuesta"></div>
-     </div>
+ <body onload="respu();">
+     <table class="calculadora">
+         <tr>
+             <td colspan="5"><span id="respuesta"></span></td>
+         </tr>
+         <tr>
+             <td><button id="n7">7</button></td>
+             <td><button id="n8">8</button></td>
+             <td><button id="n9">9</button></td>
+             <td><button id="division">/</button></td>
+             <td><button id="reversa">A^-1</button></td>
+         </tr>
+         <tr>
+            <td><button id="n4">4</button></td>
+            <td><button id="n5">5</button></td>
+            <td><button id="n6">6</button></td>
+            <td><button id="multi">x</button></td>
+            <td><button id="cuadrado">A^2</button></td>
+        </tr>
+        <tr>
+            <td><button id="n1">1</button></td>
+            <td><button id="n2">2</button></td>
+            <td><button id="n3">3</button></td>
+            <td><button id="resta">-</button></td>
+            <td><button id="residuo">%</button></td>
+        </tr>
+        <tr>
+            <td><button id="igual">=</button></td>
+            <td><button id="reset">C</button></td>
+            <td><button id="n0">0</button></td>
+            <td><button id="suma">+</button></td>
+            <td><button id="raiz">√</button></td>
+        </tr>
+     </table>
  </body>
  </html>

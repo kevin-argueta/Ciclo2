@@ -1,42 +1,27 @@
-.contenedor{
-    width: 60%;
-    height: 60%;
-    position: absolute;
-    display: inline-block;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: gray;
+.calculadora{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightblue;
+    width: 420px;
+    height: 500px;
+    border-radius: 25px;
 }
-.boton{
-    display: inline-block;
-    width: 9%;
-    height: 9%;
-    margin-top: 0.5%;
-    margin-left: 0.5%;
-    text-decoration: none;
-    border: 1px none black;
-    background-color: white;
-    position: relative;
-    color: black;
+button{
+    display: block;
+    width: 70px;
+    height: 70px;
+    font-size: 1rem;
+}
+#respuesta{
+    display: block;
     text-align: center;
-}
-
-.opera{
-    display: block;
-    width: 100%;
-}
-.datos{
-    display: block;
-    width: 100%;
-    margin-top: 5%;
-}
-.boton-txt{
-    font-size: 2rem;
-}
-input{
-    width: 30%;
-    height: 10%;
+    font-size: 40px;
+    margin-bottom: 20px;
+    width: 370px;
+    height: 100px;
+    line-height: 100px;
+    background-color: white;
+    border-radius: 25px;
+    overflow: scroll;
 }
