@@ -1,0 +1,57 @@
+.titulo{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    margin:0 auto;
+}
+.titulo h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.texto{
+    display: block;
+    text-align: center;
+    width: 80%;
+    height: 20%;
+    margin:0 auto;
+    background-color: rgba(173, 216, 230, 0.329);
+}
+.texto h1{
+    font-size: 1.5rem;
+}
+.texto p{
+    font-size: 1rem;
+}
+#ejemplo1{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-left:2%;
+    background-color: black;
+}
+#ejemplo2{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-left:20%;
+    background-color: black;
+}
+#ejemplo3{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-left:5%;
+    background-color: black;
+}
+#Ejercicio{
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin:0 auto;
+    background-color: black;
+}
+button{
+    width: 100px;
+    height: 50px;
+}
