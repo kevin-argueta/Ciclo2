@@ -130,8 +130,7 @@ textarea:focus {
  /* FF3.6+ */
  background: -moz-linear-gradient(-45deg, #668099 0%, #728eaa 100%);
  /* Chrome,Safari4+ */
- background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#668099),
-color-stop(100%,#728eaa));
+ background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#668099), color-stop(100%,#728eaa));
  /* Chrome10+,Safari5.1+ */
  background: -webkit-linear-gradient(-45deg, #668099 0%,#728eaa 100%);
  /* Opera 11.10+ */
