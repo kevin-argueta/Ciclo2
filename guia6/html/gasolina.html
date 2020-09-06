@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Gasolina</title>
+ <meta charset="utf-8" />
+ <link rel="stylesheet" href="../css/gaso.css">
+</head>
+<body>
+<form action="javascript:void(0);" class="demoForm" id="formgasolina">
+ <fieldset>
+ <legend>Tipo de gasolina y cantidad</legend>
+ <h3>tipo</h3>
+ <label><input id = "tipo1" type="radio" name="tipo" value="4.27" onclick="especial()"/>Especial</label>
+ <label><input id = "tipo2" type="radio" name="tipo" value="4.05" onclick="normal()"/>Normal</label>
+ <label><input id = "tipo3" type="radio" name="tipo" value="3.96" onclick="diesel()"/>Diesel</label>
+ <h3>cantidad</h3>
+ <input id="cantidad" type="number" name="precio" class="num" min="0.05" max="150.00" value="0.05" step="0.05"/>
+ <p></p>
+ <div id="respuesta"></div>
+ <p>
+<button onclick="calcular()">Calcular</button>
+ </p>
+ </fieldset>
+</form>
+<script src="../js/gasolina.js"></script>
+</body>
+</html>
