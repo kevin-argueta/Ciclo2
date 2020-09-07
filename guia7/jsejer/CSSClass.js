@@ -43,5 +43,5 @@ CSSClass.remove = function(e, c){
  //de caracteres de espacio en blanco y el modificador global "g"
  //para hacer que la expresión regular coincida con cualquier
  //número de apariciones.
- e.className = e.className.replace(new RegExp("\\b"+c+"\\b\\s*", "g"), "");
+ e.className = e.className.replace(new RegExp("\\b"+e.className+"\\b\\s*", "g"), "");
 }
