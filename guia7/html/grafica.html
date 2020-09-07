@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Grafica</title>
+    <link rel="stylesheet" href="../css/grafica.css">
+    <script src="http://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>    
+    <form id="grafica">
+        <div class="containers">
+            <div>
+                <input type="text" class="parametro" placeholder="(parametro)">
+                <input type="number" class="valor" placeholder="(valor)">
+            </div>
+        </div>
+        <div class="buttons">
+            <button type="button" class="Agregar">Agregar dato</button>
+            <button type="button" class="Mostrar">Mostrar Resultado</button>
+        </div>
+    </form>
+    <div id="grafico"></div>
+    <script src="../jsejer/grafica.js"></script>
+</body>
+</html>
