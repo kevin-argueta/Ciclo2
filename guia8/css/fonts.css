@@ -1,0 +1,70 @@
+/* Webfont: DroidSans */
+@font-face {
+    font-family: 'DroidSans';
+    src: url('../fonts/droid/DroidSans.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/droid/DroidSans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/droid/DroidSans.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/droid/DroidSans.ttf') format('truetype'),
+         url('../fonts/droid/DroidSans.svg#DroidSans') format('svg'); ; 
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: DroidSans-Bold */
+@font-face {
+    font-family: 'DroidSans-Bold';
+    src: url('../fonts/droid/DroidSans-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/droid/DroidSans-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/droid/DroidSans-Bold.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/droid/DroidSans-Bold.ttf') format('truetype'),
+         url('../fonts/droid/DroidSans-Bold.svg#DroidSans-Bold') format('svg'); ; 
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+@font-face { 
+    font-family: 'Cantarell-Regular'; 
+    src: url('../fonts/Cantarell-Regular.otf'); 
+    src: url('../fonts/Cantarell-Regular.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/Cantarell-Regular.woff') format('woff'), 
+         url('../fonts/Cantarell-Regular.ttf') format('truetype'), 
+         url('../fonts/Cantarell-Regular.svg#Cantarell-Regular') format('svg'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|Raleway:400,300,700);
+
+@font-face { 
+    font-family: 'LeagueGothic-Regular'; 
+    src: url('../fonts/LeagueGothic-Regular.otf'); 
+    src: url('../fonts/LeagueGothic-Regular.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/LeagueGothic-Regular.woff') format('woff'), 
+         url('../fonts/LeagueGothic-Regular.ttf') format('truetype'), 
+         url('../fonts/LeagueGothic-Regular.svg#LeagueGothic-Regular') format('svg'); 
+    font-weight: normal; 
+    font-style: normal; 
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'YanoneKaffeesatzRegular';
+	src: url('../fonts/yanonekaffeesatz-regular-webfont.eot');
+	src: url('../fonts/yanonekaffeesatz-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/yanonekaffeesatz-regular-webfont.woff') format('woff'),
+	url('../fonts/yanonekaffeesatz-regular-webfont.ttf') format('truetype'),
+	url('../fonts/yanonekaffeesatz-regular-webfont.svg#YanoneKaffeesatzRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
