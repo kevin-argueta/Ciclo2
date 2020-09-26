@@ -18,10 +18,8 @@ createObject(document.frmbook);
 function createObject(form){
 book.autor = form.txtautor.value;
 book.titulo = form.txtitulo.value;
-book.editorial =
-form.seleditorial.options[form.seleditorial.selectedIndex].text;
-book.edicion =
-form.seledicion.options[form.seledicion.selectedIndex].text;
+book.editorial = form.seleditorial.options[form.seleditorial.selectedIndex].text;
+book.edicion = form.seledicion.options[form.seledicion.selectedIndex].text;
 book.pais = form.txtpais.value;
 showProperties(book, "InfoBook");
 }

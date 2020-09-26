@@ -1,6 +1,7 @@
 //Registrar evento click al presionar botones de envío
 //y evento change al cambiar de opción en el elemento select
 function iniciar(){
+    alert("hola");
     var select = document.getElementById("selfab");
     var button = document.getElementById("enviar");
     //Al producirse en evento change en el elemento select
@@ -8,12 +9,14 @@ function iniciar(){
     //el select dependiente con los datos adecuados
     if(select.addEventListener){
     select.addEventListener("change", function(){
+        alert("hola");
     addOptions(marcas[this.options[this.selectedIndex].text],
     document.frmcar.selmod);
     }, false);
     }
     else{
     select.attachEvent("onchange", function(){
+        alert("hola");
     addOptions(marcas[this.options[this.selectedIndex].text],
     document.frmcar.selmod);
     });
@@ -23,13 +26,15 @@ function iniciar(){
     //los valores ingresados en el formulario
     if(button.addEventListener){
     button.addEventListener("click", function(){
-    var seleccion = showRadioSelected(document.frmcar.radcolor);
+        alert("hola");
+    var seleccion = showRadioSelected(document.frmcar.radcolor.value);
     carro.pedido(document.frmcar.selfab.value, document.frmcar.selmod.value, seleccion, document.frmcar.txtanio.value);
      carro.mostrar();
     }, false);
     }
     else{
         button.attachEvent("onclik", function(){
+            alert("hola");
             var seleccion = showRadioSelected(document.frmcar.radcolor);
             carro.pedido(document.frmcar.selfab.value,
             document.frmcar.selmod.value,
@@ -71,7 +76,11 @@ function iniciar(){
             carro.anio = an;
             }
             carro.mostrar = function(){
-            document.write("<!DOCTYPE html>\n");
+                alert(carro.modelo);
+                alert(carro.fabricante);
+                alert(carro.anio);
+                alert(carro.color);
+        /*    document.write("<!DOCTYPE html>\n");
             document.write("<html lang=\"es\">\n");
             document.write("<head>\n\t");
             document.write("<title>Datos del carro</title>\n");
@@ -91,7 +100,7 @@ document.write("<tr><td>Año: </td>\n");
 document.write("<td>" + carro.anio + "</td></tr>\n");
 document.write("</tr></table>\n");
  document.write("</head>\n");
-document.write("</html>\n");
+document.write("</html>\n");*/
 }
 function showRadioSelected(radiogroup){
 var seleccionado;
@@ -117,8 +126,10 @@ optionMenu[i] = new Option(optionList[i], optionList[i]);
 }
 //Asociando función que manejará el evento load al cargar la página
 if(window.addEventListener){
+    alert("hola");
 window.addEventListener("load", iniciar, false);
 }
 else if(window.attachEvent){
+    alert("hola");
 window.attachEvent("onload", iniciar);
 }
