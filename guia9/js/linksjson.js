@@ -50,5 +50,5 @@ request.onreadystatechange = function(){
     }
 }
 
-request.open("GET", "json/linksdata.json", true);
+request.open("GET", "../json/linksdata.json", true);
 request.send(null);
