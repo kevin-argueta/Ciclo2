@@ -1,0 +1,51 @@
+{
+    "title": "Peliculas y series de interes",
+    "link": "https://pelisplus.me/",
+    "description": "Las mejores series y peliculas",
+    "language": "es",
+    "items": [
+        {
+            "id":"1",
+            "title1" : "Maze Runner",
+            "pro1"  : "Dylan O'Brien, Kaya Scodelario, Thomas Brodie, Patricia Clarkson",
+            "description1": "Thomas es un adolescente cuya memoria fue borrada y que ha sido encerrado junto a otros chicos de su edad en un laberinto plagado de monstruos y misterios. Para sobrevivir, tendrá que adaptarse a las normas y a los demás habitantes del laberinto.",
+            "director1": "Wes Ball"
+        },
+        {
+            "id":"2",
+            "title2" : "Vikings",
+            "pro2"  : "Gustaf Skarsgård, Travis Fimmel, Alexander Ludwig, ",
+            "description2": "Las aventuras de Ragnar Lothbrok, un vikingo agricultor, mientras asciende para convertirse en el rey de los vikingos.",
+            "director2": "Michael Hirst"
+        },
+        {
+            "id":"3",
+            "title3" : "Juegos del hambre",
+            "pro3"  : "Jennifer Lawrence, Josh Hutcherson, Donald Sutherland",
+            "description3": "En lo que alguna vez fue Norteamérica, la Capital de Panem mantiene sus 12 distritos obligándolos a seleccionar a un niño y a una niña, llamados Tributos, a competir en un evento televisado nacionalmente llamado los Juegos del Hambre.",
+            "director3": "Gary Ross"
+        },
+        {
+            "id":"4",
+            "title4" : "The Last Kingdom",
+            "pro4"  : "Alexander Dreymon, Emily Cox, Ian Hart",
+            "description4": "El joven Uhtred pierde a su padre sajón en la batalla y su tío Aelfric le roba las tierras y la herencia. El muchacho también se convierte en guerrero, pero su familia sustituta es asesinada y Uhtred se encuentran solo.",
+            "director4": "Peter Hoar"
+        },
+        {
+            "id":"5",
+            "title5" : "Harry Potter",
+            "pro5"  : "Rupert Grint, Daniel Radcliffe, Emma Watson, Ralph Fiennes, Richard Harris",
+            "description5": "Harry Potter es una serie de novelas fantásticas escrita por la autora británica J. K. Rowling, en la que se describen las aventuras del joven aprendiz de magia y hechicería Harry Potter y sus amigos Hermione Granger y Ron Weasley, durante los años que pasan en el Colegio Hogwarts de Magia y Hechicería.",
+            "director5": "Mike Newell"
+        },
+        {
+            "id":"6",
+            "title6" : "Last Dance",
+            "pro6"  : "Michael Jordan, Scottie Pippen , Dennis Rodman, Phil Jackson",
+            "description6": "En el otoño de 1997, Michael Jordan y los Chicago Bulls permitieron que un equipo de filmación los siguiera mientras buscaban su sexto título de la NBA en ocho temporadas. El retrato de uno de los más grandes atletas del deporte y un equipo célebre.",
+            "director6": "Michael Tollin"
+        }
+
+    ]
+}
