@@ -1,6 +1,20 @@
 var g_booklist = new Array();
 var g_searchstr = '';
 var g_lastcount = 0;
+function init() {
+    var cargar = document.getElementById("get_book")
+    if (cargar.addEventListener) {
+        cargar.addEventListener("click", function () {
+            get_booklist();
+        }, false);
+    }
+    var mostrar = document.getElementById("buscar")
+    if (mostrar.addEventListener) {
+        mostrar.addEventListener("keyup", function () {
+            searchkeyup(event);
+        }, false);
+    } 
+}
 function get_booklist(){
  AJAX.execute('../xml/amazon.xml', ajax_response);
 }
@@ -154,4 +168,9 @@ function sortByAuthor(a,b){
     }
     return str2;
    }
-   
+   if (window.addEventListener) {
+    window.addEventListener("load", init, false);
+}
+else if (window.attachEvent) {
+    window.attachEvent("load", init);
+}
