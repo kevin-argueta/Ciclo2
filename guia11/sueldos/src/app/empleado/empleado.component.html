@@ -15,22 +15,22 @@
     <table>
         <thead>
         <tr>
-        <th>Nombre</th>
-        <th>Sueldo Base</th>
-        <th>Sueldo Neto</th>
-        <th>Dinero descontado en ISSS</th>
-        <th>Dinero descontado en renta</th>
-        <th>Dinero descontado en AFP</th>
+        <th> Nombre </th>
+        <th> Sueldo Base </th>
+        <th> Dinero descontado en ISSS </th>
+        <th> Dinero descontado en renta </th>
+        <th> Dinero descontado en AFP </th>
+        <th> Sueldo Neto </th>
         </tr>
         </thead>
         <tbody>
         <tr *ngFor="let empledo of registro">
         <td>{{empledo.nombre}}</td>
         <td>{{empledo.base}}</td>
-        <td>{{empledo.neto}}</td>
         <td>{{empledo.isss}}</td>
         <td>{{empledo.renta}}</td>
         <td>{{empledo.afp}}</td>
+        <td>{{empledo.neto}}</td>
         </tr>
         </tbody>
        </table>
